@@ -50,7 +50,21 @@ h1 {
   text-align: center;
   margin: 70px;
   font-family: var(--font-info);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 35px;
   letter-spacing: 4px;
+}
+
+i {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#contactMe {
+  font-size: 30px;
+  font-family: var(--font-hero);
+  letter-spacing: 4px;
+}
+
+.footer a {
+  color: var(--color-hero);
 }
