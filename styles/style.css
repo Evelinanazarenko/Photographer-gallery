@@ -4,6 +4,10 @@
   --color-hero: rgb(23, 23, 23);
 }
 
+a:hover {
+  opacity: 60%;
+}
+
 h1 {
   color: var(--color-hero);
   font-family: var(--font-hero);
@@ -16,4 +20,21 @@ h1 {
   font-size: 20px;
   letter-spacing: 5px;
   color: rgb(154, 154, 154);
+}
+
+.navb {
+  margin-top: 5rem;
+}
+
+.navb a {
+  color: var(--color-hero);
+  font-size: 17px;
+}
+
+.img-1 {
+  max-width: 100%;
+}
+
+.case {
+  height: fit-content;
 }

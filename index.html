@@ -39,8 +39,8 @@
     ></script>
   </head>
   <body>
-    <div class="container mt-5">
-      <div class="header d-flex justify-content-between">
+    <div class="container mt-5 d-block d-md-flex justify-content-between">
+      <div class="header col-sm">
         <div class="person-name">
           <h1>
             Evelina
@@ -49,26 +49,35 @@
           </h1>
           <span>Ukrainian photographer</span>
         </div>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
-          </li>
-        </ul>
+        <div class="navb mb-5">
+          <ul class="nav flex-column justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link pl-0 pb-3 active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-0 pb-3" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-0 pb-3" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pl-0 pb-3 disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex col-sm">
+        <div class="case">
+          <a href="#">
+            <img src="/images/me.jpeg" class="img-1" alt="" />
+          </a>
+        </div>
       </div>
     </div>
   </body>
