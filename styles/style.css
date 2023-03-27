@@ -68,6 +68,12 @@ i {
   margin-top: 30px;
 }
 
+.btns a {
+  font-size: 17px;
+  padding: 10px 17px !important;
+  font-family: var(--font-info);
+}
+
 .btn-style {
   background-color: var(--color-branding) !important;
   color: white !important;
@@ -91,6 +97,12 @@ i {
   font-family: var(--font-info);
 }
 
+.about-me-container span {
+  font-size: 18px;
+  /* font-family: var(--font-info); */
+  /* font-weight: 500; */
+}
+
 @media (min-width: 767px) {
   .about-me-container {
     margin-top: 90px !important;
@@ -98,10 +110,27 @@ i {
   .header {
     margin-top: 60px;
   }
+  .description-style {
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 767px) {
   .container {
     text-align: center;
+  }
+  .about-me-container {
+    margin-top: 60px;
+    text-align: center;
+  }
+  .btns {
+    justify-content: center;
+  }
+  .d-md-none img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+  .description-style {
+    margin-bottom: 2rem;
   }
 }
