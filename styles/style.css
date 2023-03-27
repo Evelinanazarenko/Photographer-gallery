@@ -71,7 +71,6 @@ i {
 .btns a {
   font-size: 17px;
   padding: 10px 17px !important;
-  font-family: var(--font-info);
 }
 
 .btn-style {
@@ -132,5 +131,9 @@ i {
   }
   .description-style {
     margin-bottom: 2rem;
+  }
+  .about-me-container span {
+    display: block;
+    margin: 15px 0px;
   }
 }
