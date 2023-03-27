@@ -40,12 +40,6 @@ h1 {
   height: fit-content;
 }
 
-@media (max-width: 767px) {
-  .container {
-    text-align: center;
-  }
-}
-
 .title-shootings {
   text-align: center;
   margin: 70px;
@@ -67,4 +61,10 @@ i {
 
 .footer a {
   color: var(--color-hero);
+}
+
+@media (max-width: 767px) {
+  .container {
+    text-align: center;
+  }
 }
