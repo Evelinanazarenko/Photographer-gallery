@@ -123,6 +123,9 @@ footer a:hover {
   opacity: 50%;
 }
 
+.up {
+  position: absolute;
+}
 @media (min-width: 767px) {
   .about-me-container {
     margin-top: 90px !important;
