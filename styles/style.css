@@ -113,6 +113,16 @@ nav a:hover {
   color: var(--color-branding);
 }
 
+footer a {
+  color: var(--color-branding);
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: var(--color-branding);
+  opacity: 50%;
+}
+
 @media (min-width: 767px) {
   .about-me-container {
     margin-top: 90px !important;
