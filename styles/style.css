@@ -44,15 +44,17 @@ h1 {
 .title-shootings {
   text-align: center;
   margin: 70px;
-  font-family: var(--font-info);
+  font-family: var(--font-hero);
   font-weight: 500;
   font-size: 35px;
   letter-spacing: 4px;
+  opacity: 80%;
 }
 
 i {
   margin-right: 20px;
   margin-left: 20px;
+  color: var(--color-branding);
 }
 #contactMe {
   font-size: 30px;
@@ -102,6 +104,14 @@ i {
   /* font-weight: 500; */
 }
 
+.active {
+  color: var(--color-branding) !important;
+}
+
+nav a:hover {
+  color: var(--color-branding);
+}
+
 @media (min-width: 767px) {
   .about-me-container {
     margin-top: 90px !important;
@@ -110,7 +120,7 @@ i {
     margin-top: 60px;
   }
   .description-style {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
