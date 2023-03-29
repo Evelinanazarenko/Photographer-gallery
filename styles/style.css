@@ -154,8 +154,9 @@ footer a:hover {
 }
 
 .type-of-shoot {
+  max-width: max-content;
   margin: 30px;
-  padding: 10px 0px 20px 0px;
+  padding: 10px 10px 20px 10px;
 }
 
 .type-of-shoot a {
@@ -207,5 +208,25 @@ footer a:hover {
   }
   .navb-responsive li {
     padding: 5px !important;
+  }
+}
+
+@media (max-width: 870px) {
+  .navbar-price {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .navbar-price li {
+    padding: 0px 10px !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .h1-price {
+    position: static;
+    color: var(--color-hero);
+    text-align: center;
+    margin-top: 20px;
   }
 }
