@@ -123,9 +123,15 @@ footer a:hover {
   opacity: 50%;
 }
 
-.up {
+.navbar-price {
   position: absolute;
+  top: 0px;
 }
+
+.navbar-price li {
+  color: rgb(255, 251, 244) !important;
+}
+
 @media (min-width: 767px) {
   .about-me-container {
     margin-top: 90px !important;
