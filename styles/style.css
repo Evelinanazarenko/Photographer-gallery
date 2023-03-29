@@ -126,10 +126,11 @@ footer a:hover {
 .navbar-price {
   position: absolute;
   top: 0px;
+  left: 30%;
 }
 
-.navbar-price li {
-  color: rgb(255, 251, 244) !important;
+.navbar-price a {
+  color: rgb(255, 251, 244);
 }
 
 @media (min-width: 767px) {
@@ -142,6 +143,41 @@ footer a:hover {
   .description-style {
     margin-bottom: 2rem;
   }
+}
+
+.h1-price {
+  color: white;
+  position: absolute;
+  left: 41%;
+  top: 120px;
+  letter-spacing: 14px;
+}
+
+.type-of-shoot {
+  margin: 30px;
+  padding: 10px 0px 20px 0px;
+}
+
+.type-of-shoot a {
+  padding: 10px 10px;
+  font-size: 17px;
+}
+
+.type-of-shoot p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.font-info {
+  font-family: var(--font-info);
+}
+
+.font-hero {
+  font-variant: var(--font-hero) !important;
+}
+
+.mixed-price {
+  font-size: 15px !important;
 }
 
 @media (max-width: 767px) {
